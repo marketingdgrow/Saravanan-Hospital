@@ -6,7 +6,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
   const servicess = [
     {
       title: "Abscess",
-      img: "../img/Surgical-Procedure/Abscess.jpg",
+      img: "./img/Surgical-Procedure/Abscess.jpg",
       short:
         "Painful pus-filled swellings drained and treated before they spread further.",
       cta: "Book a Surgical Consultation",
@@ -15,7 +15,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Anal Fissure",
-      img: "../img/Surgical-Procedure/Analfissure.jpg",
+      img: "./img/Surgical-Procedure/Analfissure.jpg",
       short:
         "Small but painful tears near the anal opening treated without surgery in most cases.",
       cta: "Consult Our Surgical Team",
@@ -24,7 +24,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Appendicitis",
-      img: "../img/Surgical-Procedure/Appendicitis.jpg",
+      img: "./img/Surgical-Procedure/Appendicitis.jpg",
       short:
         "Emergency appendix removal handled promptly before rupture becomes a risk.",
       cta: "Go to Emergency or Book a Consultation",
@@ -33,7 +33,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Breast Swelling",
-      img: "../img/Surgical-Procedure/BreastSwelling.jpg",
+      img: "./img/Surgical-Procedure/BreastSwelling.jpg",
       short:
         "Accurate diagnosis and treatment of lumps, cysts, and breast tissue changes.",
       cta: "Book a Breast Examination",
@@ -42,7 +42,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Cellulitis",
-      img: "../img/Surgical-Procedure/Cellulitis.jpg",
+      img: "./img/Surgical-Procedure/Cellulitis.jpg",
       short:
         "Skin and soft tissue bacterial infection treated before it reaches deeper layers.",
       cta: "See a Doctor Today",
@@ -51,7 +51,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Cholecystitis",
-      img: "../img/Surgical-Procedure/Cholecystitis.jpg",
+      img: "./img/Surgical-Procedure/Cholecystitis.jpg",
       short:
         "Inflamed gallbladder treated with timely surgery to prevent complications.",
       cta: "Book a Surgical Consultation",
@@ -60,7 +60,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Cholelithiasis",
-      img: "../img/Surgical-Procedure/Cholelithiasis.jpg",
+      img: "./img/Surgical-Procedure/Cholelithiasis.jpg",
       short:
         "Gallstones diagnosed and removed through modern laparoscopic techniques.",
       cta: "Consult Our Surgical Team",
@@ -69,7 +69,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Colon Cancer & Rectal Mass",
-      img: "../img/Surgical-Procedure/ColonCancerRectalMass.jpg",
+      img: "./img/Surgical-Procedure/ColonCancerRectalMass.jpg",
       short:
         "Early detection and surgical management of colorectal growths and malignancies.",
       cta: "Book a Colorectal Consultation",
@@ -78,7 +78,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Cystic Fibrosis",
-      img: "../img/Surgical-Procedure/CysticFIbrosis.jpg",
+      img: "./img/Surgical-Procedure/CysticFIbrosis.jpg",
       short:
         "Supportive surgical care for complications arising from cystic fibrosis.",
       cta: "Speak to Our Surgical Team",
@@ -87,7 +87,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Folliculitis",
-      img: "../img/Surgical-Procedure/Folliculitis.jpg",
+      img: "./img/Surgical-Procedure/Folliculitis.jpg",
       short:
         "Infected hair follicles treated to stop recurring flare-ups and skin damage.",
       cta: "Book a Skin & Surgical Consultation",
@@ -96,7 +96,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Ganglion Cyst",
-      img: "../img/Surgical-Procedure/Ganglioncyst.jpg",
+      img: "./img/Surgical-Procedure/Ganglioncyst.jpg",
       short:
         "Fluid-filled lumps near joints removed when painful or limiting movement.",
       cta: "Book a Consultation",
@@ -105,7 +105,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Hemorrhoids (ConRX)",
-      img: "../img/Surgical-Procedure/HemorrhoidsConRX.jpg",
+      img: "./img/Surgical-Procedure/HemorrhoidsConRX.jpg",
       short:
         "Conservative treatment for early-stage piles without surgical intervention.",
       cta: "See a Specialist Today",
@@ -114,7 +114,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Hemorrhoids (Grade)",
-      img: "../img/Surgical-Procedure/HemorrhoidsGrade.jpg",
+      img: "./img/Surgical-Procedure/HemorrhoidsGrade.jpg",
       short:
         "Grade-based assessment to decide the most appropriate treatment approach.",
       cta: "Get Your Hemorrhoids Assessed",
@@ -123,7 +123,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Hemorrhoids",
-      img: "../img/Surgical-Procedure/Hemorrhoids.jpg",
+      img: "./img/Surgical-Procedure/Hemorrhoids.jpg",
       short:
         "Surgical and non-surgical treatment for piles causing pain and bleeding.",
       cta: "Book a Piles Consultation",
@@ -132,7 +132,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Hernia",
-      img: "../img/Surgical-Procedure/Hernia.jpg",
+      img: "./img/Surgical-Procedure/Hernia.jpg",
       short:
         "Bulging tissue repaired through open or laparoscopic surgery with durable results.",
       cta: "Consult Our Hernia Surgeon",
@@ -141,7 +141,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Hyperthyroidism",
-      img: "../img/Surgical-Procedure/Hyperthyrodism.jpg",
+      img: "./img/Surgical-Procedure/Hyperthyrodism.jpg",
       short:
         "Overactive thyroid managed surgically when medication alone isn't enough.",
       cta: "Book a Thyroid Consultation",
@@ -150,7 +150,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Hypothyroidism",
-      img: "../img/Surgical-Procedure/Hypothyrodism.jpg",
+      img: "./img/Surgical-Procedure/Hypothyrodism.jpg",
       short:
         "Underactive thyroid evaluated and treated with the right long-term plan.",
       cta: "Get Your Thyroid Checked",
@@ -159,7 +159,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Sebaceous Cyst",
-      img: "../img/Surgical-Procedure/SebaceousCyst..jpg",
+      img: "./img/Surgical-Procedure/SebaceousCyst..jpg",
       short:
         "Skin cysts cleanly removed to prevent infection and recurring discomfort.",
       cta: "Book a Cyst Removal Appointment",
@@ -168,7 +168,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Stomach Ulcer",
-      img: "../img/Surgical-Procedure/Stomach ulcer.jpg",
+      img: "./img/Surgical-Procedure/Stomach ulcer.jpg",
       short:
         "Persistent gastric ulcers evaluated and treated when medical therapy fails.",
       cta: "Consult Our Surgical Team",
@@ -177,7 +177,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Umbilical Hernia",
-      img: "../img/Surgical-Procedure/UmbilicalHernia.png",
+      img: "./img/Surgical-Procedure/UmbilicalHernia.png",
       short:
         "Belly button hernia repaired in adults and children with a straightforward procedure.",
       cta: "Book a Hernia Consultation",
@@ -186,7 +186,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Varicose Vein",
-      img: "../img/Surgical-Procedure/VaricoseVein.jpg",
+      img: "./img/Surgical-Procedure/VaricoseVein.jpg",
       short:
         "Swollen, twisted leg veins treated to relieve pain and prevent complications.",
       cta: "Book a Vein Consultation",
@@ -195,7 +195,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Circumcision",
-      img: "../img/Surgical-Procedure/zCircum.jpg",
+      img: "./img/Surgical-Procedure/zCircum.jpg",
       short:
         "Safe circumcision procedure performed for medical or personal reasons.",
       cta: "Book a Consultation",
@@ -204,7 +204,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Phimosis",
-      img: "../img/Surgical-Procedure/zphimosis.jpg",
+      img: "./img/Surgical-Procedure/zphimosis.jpg",
       short:
         "Tight foreskin treated with non-surgical options first and surgery when necessary.",
       cta: "Book a Private Consultation",

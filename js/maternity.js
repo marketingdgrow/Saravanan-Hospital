@@ -6,7 +6,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
   const servicess = [
     {
       title: "Well Women Care",
-      img: "../img/Maternity/Well-Women-Care.jpeg",
+      img: "./img/Maternity/Well-Women-Care.jpeg",
       short:
         "Preventive health care and routine screenings that keep women healthy at every stage of life.",
       cta: "Book Your Well Women Check-Up",
@@ -15,7 +15,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Natural Birthing",
-      img: "../img/Maternity/Natural-Birthing.jpg",
+      img: "./img/Maternity/Natural-Birthing.jpg",
       short:
         "Supportive, low-intervention childbirth with full medical safety available if needed.",
       cta: "Talk to Our Birthing Team",
@@ -24,7 +24,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Caesarean Section",
-      img: "../img/Maternity/Caesarean.jpg",
+      img: "./img/Maternity/Caesarean.jpg",
       short:
         "Safe and carefully managed C-section deliveries by experienced obstetric surgeons.",
       cta: " Speak to Our Obstetrics Team",
@@ -33,7 +33,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "High Risk Obstetrics",
-      img: "../img/Maternity/HighObstetrics.jpg",
+      img: "./img/Maternity/HighObstetrics.jpg",
       short:
         "Specialised monitoring and care for pregnancies that need extra attention.",
       cta: " Book a High Risk Pregnancy Consultation",
@@ -42,7 +42,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Gynaec Laparoscopy",
-      img: "../img/Maternity/GynaecLaparoscopy.jpg",
+      img: "./img/Maternity/GynaecLaparoscopy.jpg",
       short:
         "Minimally invasive surgery for diagnosing and treating pelvic conditions.",
       cta: "Consult Our Gynaec Surgery Team",
@@ -51,7 +51,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "PCOS Management",
-      img: "../img/Maternity/PCOSManagement.jpeg",
+      img: "./img/Maternity/PCOSManagement.jpeg",
       short:
         "Comprehensive hormonal care for managing PCOS symptoms and improving fertility.",
       cta: "Start Your PCOS Treatment Today",
@@ -60,7 +60,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Hysteroscopy",
-      img: "../img/Maternity/Hysteroscopy.jpg",
+      img: "./img/Maternity/Hysteroscopy.jpg",
       short:
         "Direct examination and treatment of uterine problems without external incisions.",
       cta: "Book a Hysteroscopy Consultation",
@@ -69,7 +69,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Reproductive Medicine",
-      img: "../img/Maternity/ReproductiveMedicine.jpg",
+      img: "./img/Maternity/ReproductiveMedicine.jpg",
       short:
         "Comprehensive fertility evaluation and treatment planning for couples.",
       cta: "Book a Reproductive Medicine Consultation",
@@ -78,7 +78,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Female Infertility",
-      img: "../img/Maternity/FemaleInfertility.jpg",
+      img: "./img/Maternity/FemaleInfertility.jpg",
       short:
         "Identifying and treating the underlying causes preventing conception.",
       cta: "Speak to a Female Fertility Specialist",
@@ -87,7 +87,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "IUI / IVF / ICSI",
-      img: "../img/Maternity/IUI.jpg",
+      img: "./img/Maternity/IUI.jpg",
       short:
         "Advanced assisted reproductive techniques to help couples conceive.",
       cta: "Book Your IUI / IVF / ICSI Consultation",
@@ -96,7 +96,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Andrology",
-      img: "../img/Maternity/Andrology.jpg",
+      img: "./img/Maternity/Andrology.jpg",
       short:
         "Specialist care for male reproductive and sexual health concerns.",
       cta: "Book an Andrology Consultation",
@@ -105,7 +105,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Male Infertility",
-      img: "../img/Maternity/Male-Infertility.jpg",
+      img: "./img/Maternity/Male-Infertility.jpg",
       short:
         "Diagnosis and treatment of male fertility problems affecting conception.",
       cta: "Book a Male Fertility Evaluation",
@@ -114,7 +114,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Cosmetic Gynaecology",
-      img: "../img/Maternity/CosmeticGynaecology.jpg",
+      img: "./img/Maternity/CosmeticGynaecology.jpg",
       short:
         "Medical procedures addressing comfort, function, and intimate health concerns.",
       cta: "Book a Private Consultation",
@@ -123,7 +123,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Onco Gynaecology",
-      img: "../img/Maternity/OncoGynaecology.jpg",
+      img: "./img/Maternity/OncoGynaecology.jpg",
       short:
         "Specialised care for cancers affecting the female reproductive system.",
       cta: "Speak to Our Onco Gynaecology Team",

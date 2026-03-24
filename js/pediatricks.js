@@ -6,7 +6,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
   const servicess = [
     {
       title: "Immunization & Vaccination",
-      img: "../img/Pediatrics/Immunization.jpeg",
+      img: "./img/Pediatrics/Immunization.jpeg",
       short:
         "Complete childhood vaccination following the IAP schedule to protect children from preventable diseases.",
       cta: "Book Your Child's Vaccination Appointment",
@@ -15,7 +15,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Well Baby Care",
-      img: "../img/Pediatrics/WellCare.jpg",
+      img: "./img/Pediatrics/WellCare.jpg",
       short:
         "Routine health visits tracking your baby's growth, development, nutrition, and vaccinations.",
       cta: "Book a Well Baby Check-Up",
@@ -24,7 +24,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Growth & Development Clinic",
-      img: "../img/Pediatrics/GrowthDevelopmentClinic.jpeg",
+      img: "./img/Pediatrics/GrowthDevelopmentClinic.jpeg",
       short:
         "Early assessment of physical growth, speech, behaviour, and developmental milestones.",
       cta: "Book a Growth & Development Assessment",
@@ -33,7 +33,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Adolescent Health Clinic",
-      img: "../img/Pediatrics/AdolescentHealthClinic.jpg",
+      img: "./img/Pediatrics/AdolescentHealthClinic.jpg",
       short:
         "Medical care and guidance for teenagers dealing with puberty, health concerns, and emotional wellbeing.",
       cta: "Book an Adolescent Health Consultation",
@@ -42,7 +42,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Allergy & Asthma Care",
-      img: "../img/Pediatrics/Allergy&Asthma-Care.jpeg",
+      img: "./img/Pediatrics/Allergy&Asthma-Care.jpeg",
       short:
         "Diagnosis and long-term management of childhood allergies, asthma, and breathing conditions.",
       cta: "Book an Allergy & Asthma Consultation",

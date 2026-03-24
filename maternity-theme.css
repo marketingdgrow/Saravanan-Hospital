@@ -1,5 +1,5 @@
 /* Maternity purple theme override (keeps same surgery layout + responsive rules) */
-html{
+html {
   font-family: "Poppins", sans-serif;
 }
 .service-theme-yellow {
@@ -15,7 +15,6 @@ html{
   --theme-btn-2: #7e36da;
   --theme-btn-text: #ffffff;
 }
-
 
 .service-theme-yellow .page-top-section::before {
   content: "";
@@ -36,27 +35,23 @@ html{
 .service-theme-yellow .page-top-section::after {
   content: "";
   position: absolute;
-  top: -75px;        
-  left: -170px;
+  top: 42px;
+  left: -175px;
   width: clamp(320px, 160vw, 730px);
   height: clamp(360px, 130vw, 380px);
-  background: url("./img/bg-ser-1.png") no-repeat center;
+  background: url("./img/c2.png") no-repeat center;
   background-size: contain;
-  transform: rotate(150deg);  
+  transform: rotate(-90deg);
   pointer-events: none;
   z-index: 1;
 }
 
-
 .service-theme-yellow .page-top-section h1 {
-  color: #ffffff; 
-  text-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.4),
-    0 4px 10px rgba(0, 0, 0, 0.3),
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 4px 10px rgba(0, 0, 0, 0.3),
     0 0 20px rgba(0, 0, 0, 0.2);
   background: none;
   -webkit-text-fill-color: initial;
-  
 }
 
 .service-theme-yellow .page-left-content p {
@@ -179,18 +174,17 @@ html{
   }
 }
 @media screen and (max-width: 539px) {
-
-.service-theme-yellow .page-top-section::after {
-  content: "";
-  position: absolute;
-  top: -135px;        
-  left: -180px;
-  width: clamp(270px, 160vw, 660px);
-  height: clamp(360px, 130vw, 380px);
-  background: url("./img/bg-ser-1.png") no-repeat center;
-  background-size: contain;
-  transform: rotate(160deg);  
-  pointer-events: none;
-  z-index: 1;
-}
+  .service-theme-yellow .page-top-section::after {
+    content: "";
+    position: absolute;
+    top: -135px;
+    left: -180px;
+    width: clamp(270px, 160vw, 660px);
+    height: clamp(360px, 130vw, 380px);
+    background: url("./img/bg-ser-1.png") no-repeat center;
+    background-size: contain;
+    transform: rotate(160deg);
+    pointer-events: none;
+    z-index: 1;
+  }
 }

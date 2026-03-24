@@ -6,7 +6,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
   const servicess = [
     {
       title: "Therapeutic Yoga for Chronic Conditions",
-      img: "../img/yoga/TherapeuticYoga.jpg",
+      img: "./img/yoga/TherapeuticYoga.jpg",
       short:
         "Structured yoga sessions designed around diabetes, hypertension, arthritis, and other long-term conditions.",
       cta: " Join the Therapeutic Yoga Programme",
@@ -16,7 +16,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
 
     {
       title: "Prenatal Yoga",
-      img: "../img/yoga/Prenatalyoga.jpg",
+      img: "./img/yoga/Prenatalyoga.jpg",
       short:
         "Safe, guided movement and breathing for expecting mothers at every stage of pregnancy.",
       cta: " Join Prenatal Yoga Sessions",
@@ -26,7 +26,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
 
     {
       title: "Stress & Anxiety Relief",
-      img: "../img/yoga/YogaStressandAnxietyRelief.jpg",
+      img: "./img/yoga/YogaStressandAnxietyRelief.jpg",
       short:
         "Yoga and relaxation techniques that bring the nervous system down from overdrive.",
       cta: "Join the Stress Relief Yoga Programme",
@@ -36,7 +36,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
 
     {
       title: "Breathing & Pranayama Therapy",
-      img: "../img/yoga/BreathingPranayamaTherapy.jpg",
+      img: "./img/yoga/BreathingPranayamaTherapy.jpg",
       short:
         "Controlled breathing practices that improve lung function, circulation, and mental clarity.",
       cta: "Join Pranayama Therapy Sessions",
@@ -46,7 +46,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
 
     {
       title: "Yoga for Back Pain & Posture",
-      img: "../img/yoga/YogaforBackPain&Posture.jpg",
+      img: "./img/yoga/YogaforBackPain&Posture.jpg",
       short:
         "Targeted movement to reduce spinal pain, correct postural imbalances, and strengthen the core.",
       cta: " Join the Back Pain & Posture Programme",

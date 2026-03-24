@@ -6,7 +6,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
   const servicess = [
     {
       title: "Acne & Acne Scars",
-      img: "../img/dem/Acne-and-acne-scars.jpg",
+      img: "./img/dem/Acne-and-acne-scars.jpg",
       short:
         "Persistent breakouts and the marks they leave behind — treated at the root.",
       cta: "Book an Acne Consultation",
@@ -15,7 +15,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Psoriasis & Eczema",
-      img: "../img/dem/Psoriasis-and-Eczema.jpg",
+      img: "./img/dem/Psoriasis-and-Eczema.jpg",
       short:
         "Chronic skin conditions managed with a long-term plan that actually controls flare-ups.",
       cta: "Book a Consultation for Psoriasis or Eczema",
@@ -24,7 +24,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Warts, Moles & Skin Tags",
-      img: "../img/dem/Indian-Warts-Moles-and-Skin-Tags.jpeg",
+      img: "./img/dem/Indian-Warts-Moles-and-Skin-Tags.jpeg",
       short:
         "Safe, clean removal of unwanted skin growths with minimal scarring.",
       cta: "Book a Skin Growth Removal Appointment",
@@ -33,7 +33,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Hair Loss Treatments",
-      img: "../img/dem/Hair-Loss-Treatments.jpg",
+      img: "./img/dem/Hair-Loss-Treatments.jpg",
       short:
         "Finding why your hair is falling — and stopping it before more is lost.",
       cta: "Book a Hair Loss Consultation",
@@ -42,7 +42,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Pigmentation & Melasma",
-      img: "../img/dem/Pigmentation-and-Melasma.jpeg",
+      img: "./img/dem/Pigmentation-and-Melasma.jpeg",
       short:
         "Uneven skin tone and stubborn dark patches treated with targeted clinical procedures.",
       cta: "Book a Pigmentation Consultation",
@@ -51,7 +51,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Skin Allergy Management",
-      img: "../img/dem/Indian-Skin-Allergy-Management.jpg",
+      img: "./img/dem/Indian-Skin-Allergy-Management.jpg",
       short:
         "Identifying what's triggering your skin reaction and keeping it from coming back.",
       cta: "Book a Skin Allergy Consultation",
@@ -60,7 +60,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Nail Disorders",
-      img: "../img/dem/Nail-Disorders.jpeg",
+      img: "./img/dem/Nail-Disorders.jpeg",
       short:
         "Fungal infections, nail changes, and structural problems diagnosed and treated correctly.",
       cta: "Book a Nail Disorder Consultation",
@@ -69,7 +69,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Skin Cancer & Mole Screening",
-      img: "../img/dem/Skin-Cancer-and-Mole-Screening.jpeg",
+      img: "./img/dem/Skin-Cancer-and-Mole-Screening.jpeg",
       short:
         "Early detection of suspicious skin changes — because catching it early saves lives.",
       cta: "Book a Skin Cancer Screening",
@@ -78,7 +78,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Cosmetology",
-      img: "../img/dem/Cosmetology.jpg",
+      img: "./img/dem/Cosmetology.jpg",
       short:
         "Medical-grade cosmetic procedures for skin, hair, and anti-aging — done by doctors, not salons.",
       cta: "Book a Cosmetology Consultation",

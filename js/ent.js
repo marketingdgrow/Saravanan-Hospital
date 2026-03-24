@@ -6,7 +6,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
   const servicess = [
     {
       title: "Sinusitis",
-      img: "../img/ent/Sinusitis.jpg",
+      img: "./img/ent/Sinusitis.jpg",
       short:
         "Diagnosis and treatment for acute and chronic sinus infections affecting breathing and daily comfort.",
       cta: "Book a Sinusitis Consultation",
@@ -15,7 +15,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Allergic Rhinitis",
-      img: "../img/ent/Allergic-Rhinitis.jpg",
+      img: "./img/ent/Allergic-Rhinitis.jpg",
       short:
         "Specialist care for chronic sneezing, nasal allergies, and breathing discomfort caused by environmental triggers.",
       cta: "Book an Allergy Rhinitis Consultation",
@@ -24,7 +24,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Tonsillitis & Adenotonsillitis",
-      img: "../img/ent/Tonsillitis-and-Adenotonsillitis.jpg",
+      img: "./img/ent/Tonsillitis-and-Adenotonsillitis.jpg",
       short:
         "Evaluation and treatment for recurrent throat infections affecting breathing, swallowing, and sleep.",
       cta: "Book a Tonsil Consultation",
@@ -33,7 +33,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Nasal Polyps",
-      img: "../img/ent/Nasal-polys.jpeg",
+      img: "./img/ent/Nasal-polys.jpeg",
       short:
         "Treatment for non-cancerous nasal growths causing breathing blockage and sinus infections.",
       cta: "Book a Nasal Polyp Consultation",
@@ -42,7 +42,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Deviated Septum",
-      img: "../img/ent/Deviated-Septum.jpeg",
+      img: "./img/ent/Deviated-Septum.jpeg",
       short:
         "Surgical correction of nasal septum deviation causing breathing obstruction and sinus infections.",
       cta: "Book a Deviated Septum Consultation",
@@ -105,7 +105,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "Throat & Laryngeal Cancer",
-      img: "../img/ent/Throat-and-Laryngeal-Cancer.jpeg",
+      img: "./img/ent/Throat-and-Laryngeal-Cancer.jpeg",
       short:
         "Early detection and specialist care for cancers affecting the throat and voice box.",
       cta: "Book an ENT Evaluation Today",
@@ -114,7 +114,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
     },
     {
       title: "CSF Rhinorrhoea",
-      img: "../img/ent/CSF-Rhinorrhoea.jpeg",
+      img: "./img/ent/CSF-Rhinorrhoea.jpeg",
       short:
         "Specialist diagnosis and repair of cerebrospinal fluid leaks from the nose.",
       cta: "Book an Urgent ENT Evaluation",
