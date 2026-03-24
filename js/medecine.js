@@ -6,7 +6,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
   const servicess = [
     {
       title: " Flu Clinic ",
-      img: "../img/gm/Flu-Clinic.jpeg",
+      img: "./img/gm/Flu-Clinic.jpeg",
       short:
         "Fast, focused care for fever, infections, and viral illnesses — same day.",
       cta: "Book a Same-Day Appointment",
@@ -16,7 +16,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
 
     {
       title: "Endocrinology",
-      img: "../img/gm/Endocrinology.jpeg",
+      img: "./img/gm/Endocrinology.jpeg",
       short:
         "Specialist evaluation and treatment for hormonal conditions affecting your whole body.",
       cta: "Book an Endocrinology Consultation",
@@ -26,7 +26,7 @@ if (grid || (treatmentLeftColumn && treatmentRightColumn)) {
 
     {
       title: "Diabetology & Hypertension",
-      img: "../img/gm/Diabetology.jpg",
+      img: "./img/gm/Diabetology.jpg",
       short:
         "Long-term management of diabetes and blood pressure — keeping both under control.",
       cta: "Book Your Diabetes & BP Consultation",
