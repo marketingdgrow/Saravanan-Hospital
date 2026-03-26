@@ -34,9 +34,8 @@ html {
 
 .service-theme-yellow .page-top-section::after {
   content: "";
-  content: "";
   position: absolute;
-  top: 42px;
+  top: 0px;
   left: -175px;
   width: clamp(320px, 160vw, 730px);
   height: clamp(360px, 130vw, 380px);
@@ -44,7 +43,7 @@ html {
   background-size: contain;
   transform: rotate(0deg);
   pointer-events: none;
-  z-index: 1;
+  z-index: 0;
 }
 
 .service-theme-yellow .page-top-section h1 {
