@@ -103,7 +103,7 @@ p {
 .center-img {
   position: absolute;
   left: 50%;
-  bottom: -90px;
+  bottom: -55px;
   width: 100px;
   transform: translateX(-50%) scale(0);
   opacity: 0;
@@ -113,8 +113,8 @@ p {
 
 .plus-main {
   position: absolute;
-  right: -100px;
-  top: -100px;
+  right: -80px;
+  top: 10px;
   opacity: 0;
   transform: scale(0);
 }
@@ -408,6 +408,13 @@ p {
 
   .book-btn {
     display: none;
+  }
+  .plus-main {
+    position: absolute;
+    right: -80px;
+    top: -40px;
+    opacity: 0;
+    transform: scale(0);
   }
 }
 
@@ -1409,7 +1416,7 @@ p {
 
 .footer ul {
   list-style: none;
-  margin-left: -35px;
+  /* margin-left: -35px; */
 }
 
 .footer li {
@@ -2972,7 +2979,7 @@ p {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .inner-circle h1 {
   margin: 0;
@@ -3585,7 +3592,7 @@ p {
   margin: 0 auto;
 }
 .treatment-doctor img {
-  animation: floatDoc 4s ease-in-out infinite;
+  /* animation: floatDoc 4s ease-in-out infinite; */
 }
 
 @keyframes floatDoc {
@@ -3706,7 +3713,7 @@ p {
   text-align: center;
   box-shadow: 0 8px 18px rgba(90, 106, 103, 0.16);
   transform-origin: 50% -70px;
-  animation: chainCardSwing 4s ease-in-out infinite;
+  /* animation: chainCardSwing 4s ease-in-out infinite; */
   transition: box-shadow 0.25s ease;
   cursor: pointer;
 }
@@ -4056,7 +4063,9 @@ p {
 /* mobile */
 @media screen and (max-width: 539px) {
   .overlay-dot {
-    width: 80%;
+    width: 100%;
+    top: 30%;
+    left: 50%;
   }
   .hero {
     height: 73vh;
@@ -4695,7 +4704,7 @@ p {
   .center-img {
     position: absolute;
     left: 50%;
-    bottom: -90px;
+    bottom: -40px;
     width: 60px;
     transform: translateX(-50%) scale(0);
     opacity: 0;
@@ -4704,9 +4713,10 @@ p {
   /* plus */
 
   .plus-main {
+    width: 60px;
     position: absolute;
-    right: -60px;
-    top: -60px;
+    right: -70px;
+    bottom: -200px;
     opacity: 0;
     transform: scale(0);
   }

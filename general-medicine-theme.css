@@ -45,13 +45,18 @@ html {
   left: -175px;
   width: clamp(320px, 160vw, 730px);
   height: clamp(360px, 130vw, 380px);
-  background: url("./img/c2.png") no-repeat center;
+  /* background: url("./img/c2.png") no-repeat center; */
   background-size: contain;
   transform: rotate(0deg);
   pointer-events: none;
   z-index: 0;
 }
-
+.svg-overlap {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  z-index: -1;
+}
 .service-theme-yellow .page-top-section h1 {
   color: #ffffff;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 4px 10px rgba(0, 0, 0, 0.3),
@@ -145,10 +150,13 @@ html {
     left: -180px;
     width: clamp(270px, 160vw, 660px);
     height: clamp(360px, 130vw, 380px);
-    background: url("./img/bg-ser-1.png") no-repeat center;
+    /* background: url("./img/bg-ser-1.png") no-repeat center; */
     background-size: contain;
     transform: rotate(160deg);
     pointer-events: none;
     z-index: 1;
+  }
+  .svg-overlap {
+    top: -220px;
   }
 }

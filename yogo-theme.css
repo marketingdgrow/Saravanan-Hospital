@@ -2,7 +2,7 @@
 html {
   font-family: "Poppins", sans-serif;
 }
-.service-theme-yellow {
+/* .service-theme-yellow {
   --theme-hero-bg-1: #fff3e4;
   --theme-hero-bg-2: #ffdab7;
   --theme-surface: #fffbf7;
@@ -14,14 +14,27 @@ html {
   --theme-btn-1: #ea984b;
   --theme-btn-2: #c47124;
   --theme-btn-text: #ffffff;
+} */
+.service-theme-yellow {
+  --theme-hero-bg-1: #fff3e4;
+  --theme-hero-bg-2: #ffdab7;
+  --theme-surface: #fffbf7;
+  --theme-surface-soft: #fff4ea;
+  --theme-surface-media: #ffe9d5;
+  --theme-border: #edcfa8;
+  --theme-title: #f8f8f8;
+  --theme-text: #d7d4d2;
+  --theme-text2: #d7d4d2;
+  --theme-btn-1: #4d4d4d;
+  --theme-btn-2: #4d4d4d;
+  --theme-btn-text: #ffffff;
 }
-
 .service-theme-yellow .page-top-section::before {
   content: "";
   position: absolute;
   inset: 0;
 
-  background: linear-gradient(to left, #f8ac2075, #ea984b),
+  background: linear-gradient(to left, #41414175, #4d4d4d),
     url("./img/yoga\ 2.png") no-repeat;
 
   background-position: right;
@@ -39,13 +52,18 @@ html {
   left: -175px;
   width: clamp(320px, 160vw, 730px);
   height: clamp(360px, 130vw, 380px);
-  background: url("./img/c2.png") no-repeat center;
+  /* background: url("./img/c2.png") no-repeat center; */
   background-size: contain;
   transform: rotate(0deg);
   pointer-events: none;
   z-index: 0;
 }
-
+.svg-overlap {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  z-index: -1;
+}
 .service-theme-yellow .page-top-section h1 {
   color: #ffffff;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 4px 10px rgba(0, 0, 0, 0.3),
@@ -55,24 +73,31 @@ html {
 }
 
 .service-theme-yellow .page-left-content p {
-  color: #78562f;
+  color: #050505;
+}
+.service-theme-yellow .treatment-chain-intro p {
+  color: #545353;
 }
 
+.service-theme-yellow #modalDesc p,
+.service-theme-yellow #modalDesc li {
+  color: #4d4d4d;
+}
 .service-theme-yellow .treatment-chain-shell {
   /* background: #dcedff; */
 }
 
 .service-theme-yellow .treatment-chain-intro h2 {
-  color: #b7681e;
+  color: #4d4d4d;
 }
 .service-theme-yellow .treatment-chain-btn {
-  background: linear-gradient(135deg, #f0a762, #d27e2f);
+  background: linear-gradient(135deg, #4d4d4d, #4d4d4d);
   box-shadow: inset 0 2px 6px rgba(255, 255, 255, 0.4),
     inset 0 -4px 8px rgba(0, 0, 0, 0.25), 0 10px 20px rgba(0, 0, 0, 0.25),
     0 0 10px rgba(233, 233, 233, 0.4);
 }
 .service-theme-yellow .treatment-chain-btn:hover {
-  background: linear-gradient(135deg, #f08f62, #d2702f);
+  background: linear-gradient(135deg, #f08f62, #4d4d4d);
   box-shadow: inset 0 2px 6px rgba(255, 255, 255, 0.4),
     inset 0 -4px 8px rgba(0, 0, 0, 0.25), 0 10px 20px rgba(0, 0, 0, 0.25),
     0 0 10px rgba(233, 233, 233, 0.4);
@@ -88,19 +113,19 @@ html {
 }
 
 .service-theme-yellow .treatment-card h3 {
-  color: #964707;
+  color: #ffffff;
 }
 
 .service-theme-yellow .treatment-card-body {
-  background: #ecc19d;
+  background: rgb(105, 105, 104);
 }
 
 .service-theme-yellow #modalDesc h3 {
-  color: #a04a18;
+  color: #4d4d4d;
 }
 
 .service-theme-yellow .modal-cta-btn {
-  border-color: #d2702f;
+  border-color: #4d4d4d;
   box-shadow: 0 10px 22px rgba(163, 89, 20, 0.28);
 }
 
@@ -109,29 +134,29 @@ html {
 }
 
 .service-theme-yellow .close {
-  color: #ad6225;
+  color: #ffffff;
 }
 
 .service-theme-yellow .close:hover {
-  color: #723d11;
+  color: #ffffff;
 }
 
 /* Why Choose section blue overrides */
 .service-theme-yellow .circle-con {
-  background-color: #d58a4d;
+  background-color: #4d4d4d;
 }
 
 .service-theme-yellow .why-box {
-  background: linear-gradient(135deg, #ffebd9, #ffe1be);
-  border: 1px solid #e69f71;
+  background: linear-gradient(135deg, #4d4d4d, #4d4d4d);
+  border: 1px solid #545353;
 }
 
 .service-theme-yellow .why-box-body {
-  color: #824c1f;
+  color: #ffffff;
 }
 
 .service-theme-yellow .why-box-num {
-  color: #b16c34;
+  color: #ffffff;
   opacity: 0.45;
 }
 
@@ -143,10 +168,13 @@ html {
     left: -180px;
     width: clamp(270px, 160vw, 660px);
     height: clamp(360px, 130vw, 380px);
-    background: url("./img/bg-ser-1.png") no-repeat center;
+    /* background: url("./img/bg-ser-1.png") no-repeat center; */
     background-size: contain;
     transform: rotate(160deg);
     pointer-events: none;
     z-index: 1;
+  }
+  .svg-overlap {
+    top: -200px;
   }
 }
